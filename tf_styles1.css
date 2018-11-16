@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author: Jose Felix
+   Date:   11.15.18
    
    Filename: tf_styles1.css
    
@@ -22,7 +22,6 @@
 
 
 /* HTML and Body Styles */
-
 html {
    background: url(tf_back1.png) center center / cover no-repeat fixed;
    height: 100%;
@@ -144,10 +143,43 @@ body > footer {
 }
 
 /* Pulldown Menu Styles */
+.submenu {
+    display: none;
+}
+.submenuTitle:hover+.submenu, .submenu:hover {
+    display: block;
+    /* -webkit-animation-delay:20s;     
+    -moz-animation-delay:20s; 
+    -ms-animation-delay:20s;     
+    -o-animation-delay:20s;     
+    animation-delay:20s; */
+}
 
 
 
 
 /* New Styles Added Below */
 
+/* ========================
+   Mobile Styles: 0px-480px
+   ========================
+*/
+@media only screen and (max-width: 480px){
 
+}
+
+/* ================================
+   Tablet Styles: 481px and greater
+   ================================
+*/
+@media only screen and (min-width: 481px){
+    
+}
+
+/* =================================
+   Desktop Styles: 769px and greater
+   =================================
+*/
+@media only screen and (min-width: 769px){
+    
+}
